@@ -24,10 +24,6 @@ section {
     border-radius: 2.5rem;
 }
 
-#myProjects {
-    height: 80%;
-}
-
 .btn-primary {
     background-color: #293785;
     transition: 0.5s;
@@ -44,10 +40,6 @@ footer {
 @media (max-width: 991.98px) {
     #myProjects {
         width: 50%;
-    }
-
-    #myProjects ul li {
-        height: fit-content;
     }
 }
 
