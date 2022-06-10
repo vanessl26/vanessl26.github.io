@@ -1,0 +1,58 @@
+.navbar {
+    background-color: #293785;
+}
+
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #e2edff;
+}
+
+#projects {
+    background-color: #e2edff;
+}
+
+section {
+    padding-top: 6rem;
+}
+
+.card {
+    background-color: #b9d0f4;
+}
+
+.card img {
+    padding: 1rem;
+    border-radius: 2.5rem;
+}
+
+#myProjects {
+    height: 80%;
+}
+
+.btn-primary {
+    background-color: #293785;
+    transition: 0.5s;
+}
+
+.btn-primary:hover {
+    opacity: 0.8;
+}
+
+footer {
+    background-color: #293785;
+}
+
+@media (max-width: 991.98px) {
+    #myProjects {
+        width: 50%;
+    }
+
+    #myProjects ul li {
+        height: fit-content;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #myProjects {
+        width: 100%;
+    }
+}
