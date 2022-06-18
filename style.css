@@ -37,6 +37,15 @@ section {
     visibility: hidden;
 }
 
+#MyContact {
+    font-size: 3rem;
+}
+
+#MyContact:hover {
+    font-size: 3.2rem;
+    transition: 0.7s;
+}
+
 footer {
     background-color: #293785;
 }
