@@ -33,6 +33,10 @@ section {
     opacity: 0.8;
 }
 
+.hidden-content {
+    visibility: hidden;
+}
+
 footer {
     background-color: #293785;
 }
