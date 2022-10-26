@@ -1,10 +1,11 @@
 .navbar {
-  background-color: #293785;
+  background-color: #be3144;
 }
 
 .jumbotron {
   padding-top: 6rem;
-  background-color: #e2edff;
+  background-color: #303841;
+  color: #f0f0f0;
 }
 
 .jumbotron img,
@@ -15,7 +16,7 @@
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
 }
 
 @keyframes fadeInOpacity {
@@ -27,8 +28,12 @@
   }
 }
 
+#about {
+  background-color: #f0f0f0;
+}
+
 #projects {
-  background-color: #e2edff;
+  background-color: #293785;
 }
 
 section {
@@ -36,7 +41,7 @@ section {
 }
 
 .card {
-  background-color: #b9d0f4;
+  background-color: #f0f0f0;
 }
 
 .card img {
@@ -67,7 +72,7 @@ section {
 }
 
 footer {
-  background-color: #293785;
+  background-color: #be3144;
 }
 
 @media (max-width: 991.98px) {
