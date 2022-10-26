@@ -1,63 +1,83 @@
 .navbar {
-    background-color: #293785;
+  background-color: #293785;
 }
 
 .jumbotron {
-    padding-top: 6rem;
-    background-color: #e2edff;
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+.jumbotron img,
+.jumbotron h1,
+.jumbotron p,
+.jumbotron a {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #projects {
-    background-color: #e2edff;
+  background-color: #e2edff;
 }
 
 section {
-    padding-top: 6rem;
+  padding-top: 6rem;
 }
 
 .card {
-    background-color: #b9d0f4;
+  background-color: #b9d0f4;
 }
 
 .card img {
-    padding: 1rem;
-    border-radius: 2.5rem;
+  padding: 1rem;
+  border-radius: 2.5rem;
 }
 
 .btn-primary {
-    background-color: #293785;
-    transition: 0.5s;
+  background-color: #293785;
+  transition: 0.5s;
 }
 
 .btn-primary:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 .hidden-content {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 #MyContact {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 #MyContact:hover {
-    font-size: 3.2rem;
-    transition: 0.7s;
+  font-size: 3.2rem;
+  transition: 0.7s;
 }
 
 footer {
-    background-color: #293785;
+  background-color: #293785;
 }
 
 @media (max-width: 991.98px) {
-    #myProjects {
-        width: 50%;
-    }
+  #myProjects {
+    width: 50%;
+  }
 }
 
 @media (max-width: 767.98px) {
-    #myProjects {
-        width: 100%;
-    }
+  #myProjects {
+    width: 100%;
+  }
 }
